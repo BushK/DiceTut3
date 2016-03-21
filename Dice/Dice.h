@@ -15,9 +15,10 @@ public:
 	//destructor
 	~Dice();
 
-	void Rolll();
+	void Roll();
 	void Display();
 	void Reset();
+	float average(int[], int);
 private:
 	//member functions
 	int RollCount();
